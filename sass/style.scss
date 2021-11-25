@@ -1,0 +1,35 @@
+$font-grupo: 'Rubik', sans-serif;
+$font-tamanho: 0.8rem;
+$amarelo-esverdeado: #EFEFBB;
+$azul-magenta: #D4D3DD;
+$preto: #000;
+$branco: #fff;
+$bege:#BAA193;
+$roxo: #200C2C;
+$cinza: #eee;
+$cinza-escuro: #646464;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $font-grupo;
+}
+
+body {
+    background: $amarelo-esverdeado;
+    background: -webkit-linear-gradient(to right, $azul-magenta, $amarelo-esverdeado);
+    background: linear-gradient(to right, $azul-magenta, $amarelo-esverdeado);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+@import 'header';
+
+@import 'main';
+
+@import 'footer';

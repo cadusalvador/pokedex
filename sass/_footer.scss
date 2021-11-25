@@ -1,0 +1,17 @@
+footer {
+
+    p {
+        text-align: center;
+        color: $bege;
+    }
+    
+    a {
+        text-decoration: none;
+        color: $bege;
+        
+
+        &:hover{
+            color: $roxo;
+        }
+    }
+}
